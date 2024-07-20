@@ -226,7 +226,9 @@ _____________________________*/
 
 .image
 {
-    width: 100%; height: auto;
+    width: 100%; 
+    height: auto;
+    cursor: pointer;
 }
 
 .card_copy
@@ -254,18 +256,26 @@ _____________________________*/
 
 }
 
+.banner2
+{
+    position: fixed;
+    top: 25%;
+}
 .banner_image
 {
     width: 30%;
     float: left;
     height: 100%;
     background-image: url(img/bomboniera.jpg);
+
     /*ora l immagine la impostiamo su cover cosi da essere responsive*/
     background-size: cover;/*impostazione cover*/
     -o-background-size: cover;/*impostazione cover per opera*/
     -moz-background-size: cover ;/*impostazione cover per mozzilla*/
 
     background-position: center center;/*centriamo l immagine*/
+
+    
 }
 
 .banner_image2
@@ -276,6 +286,21 @@ _____________________________*/
 .banner_image3
 {
     background-image: url(img/ceci_500.jpg);
+}
+
+.banner_image4
+{
+    background-image: url(img/ceci_sfondo2.jpg);
+}
+
+.banner_image5
+{
+    background-image: url(img/olio_sfondo.jpg);
+}
+
+.banner_image6
+{
+    background-image: url(img/carosello1.jpg);
 }
 .float{
     float:right;
@@ -324,10 +349,6 @@ _____________________________*/
 
 
 
-
-
-
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -365,6 +386,14 @@ _____________________________*/
     .right
     {
         text-align: left;
+    }
+    .footer2
+    {
+        margin-top: 0px;
+    }
+    .banner2
+    {
+        top: 0px;
     }
 }
 
@@ -444,7 +473,14 @@ _____________________________*/
         width: 100%;
         height: 50%;
     }
-
+    .footer2
+    {
+        margin-top: 0px;
+    }
+    .banner2
+    {
+        top: 0px;
+    }
 }
 
 
@@ -534,6 +570,11 @@ footer {
     margin-top: 70px;
    
   }
+
+.footer2
+{
+    margin-top: 291px;
+}
   
   .container1 {
     display: flex;
@@ -598,5 +639,3 @@ footer {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-/*sto provando a committare*/
